@@ -1,0 +1,26 @@
+{
+  "name": "@neongamerbot/utils",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "My Utils (small code) written in bun",
+  "scripts": {
+    "build": "bun run build.mjs",
+    "prepublishOnly": "bun run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "bun",
+    "utils",
+    "neon"
+  ],
+  "license": "MIT",
+  "author": "Neon <neon@saahild.com>",
+  "devDependencies": {
+    "@types/bun": "^1.0.0",
+    "bun-plugin-dts": "^0.2.1",
+    "typescript": "^5.2.2"
+  }
+}
